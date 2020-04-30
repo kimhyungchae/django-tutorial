@@ -2,3 +2,17 @@ git status
 
 git add --all
 git commit -m "My Django Girls app, first commit"
+
+echo "# django-tutorial" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/kimhyungchae/django-tutorial.git
+git push -u origin master
+
+
+$ git status
+$ git add --all .
+$ git status
+$ git commit -m "Modified templates to display posts from database."
+$ git push
